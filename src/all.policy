@@ -1,0 +1,6 @@
+grant codeBase "file:/F:/CT414-Distributed-Systems-Banking-Application-master/src/"{
+    permission java.security.AllPermission;
+	 permission java.net.SocketPermission "localhost:7777", "connect, resolve";
+    permission java.net.SocketPermission "127.0.0.1:7777", "connect, resolve";
+    permission java.net.SocketPermission "localhost:80", "connect, resolve";
+};
